@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>DISK SCHEDULING ALGORITHM</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="//fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <a class="navbar-brand" href="index.html">
+                    <!-- <span class="<fa fa-hdd-o"></span> OS LAB -->
+                    <span class=""></span> OS LAB
+                </a>
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="algo.html">Simulate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/header-->
+    <!-- main-slider -->
+    <section class="w3l-main-slider" id="home">
+        <div class="companies20-content">
+            <div class="owl-one owl-carousel owl-theme">
+                <div class="item">
+                    <li>
+                        <div class="slider-info banner-view bg bg2">
+                            <div class="banner-info">
+                                <div class="container">
+                                    <div class="banner-info-bg">
+                                        <h5>DSA</h5>
+                                        <br>
+                                        <h6 class="line-1 anim-typewriter"><span>Disk Scheduling Algorithm</span></h6>
+                                        <p class="mt-4">With the classical approach of disk scheduling algorithm, few
+                                            algorithms like SSTF and LOOK will be the most efficient algorithm compared
+                                            to FCFS, SCAN, C-SCAN and C- LOOK disk scheduling algorithm with respect
+                                            to these parameters. </p>
+                                        <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="algo.html">SIMULATE</a>
+                                        <a class="btn btn-style btn-white mt-sm-5 mt-4" href="about.html"> About us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <div class="slider-info  banner-view banner-top1 bg bg2">
+                            <div class="banner-info">
+                                <div class="container">
+                                    <div class="banner-info-bg">
+                                        <h5>SCAN</h5>
+                                        <h6><span>scan-algo</span></h6>
+                                        <p class="mt-4">In SCAN algorithm the disk arm moves into a particular direction
+                                            and services the requests coming in its path and after reaching the end of
+                                            disk, it reverses its direction and again services the request arriving
+                                            in its path...</p>
+                                        <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2"
+                                            href="algo.html">SIMULATE</a>
+                                        <a class="btn btn-style btn-white mt-sm-5 mt-4" href="about.html"> About us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <div class="slider-info banner-view banner-top2 bg bg2">
+                            <div class="banner-info">
+                                <div class="container">
+                                    <div class="banner-info-bg">
+                                        <h5>LOOK</h5>
+                                        <h6>look</h6>
+                                        <p class="mt-4">It is similar to the SCAN disk scheduling algorithm except for
+                                            the difference that the disk arm in spite of going to the end of the disk
+                                            goes only to the last request to be serviced in front of the head and then
+                                            reverses its direction from there...
+                                        </p>
+                                        <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="algo.html">SIMULATE</a>
+                                        <a class="btn btn-style btn-white mt-sm-5 mt-4" href="about.html"> About us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /main-slider -->
+
+    <section class="w3l-index3" id="bottom">
+        <div class="midd-w3 py-5">
+            <div class="container py-lg-5 py-md-3">
+                <div class="row">
+                    <div class="col-lg-6 about-right-faq align-self">
+                        <h5 class="title-small mb-3">DSA</h5>
+                        <h3 class="title-big">DISK SCHEDULLING ALGORITHM</h3>
+                        <p class="mt-4">Disk scheduling is done by operating systems to schedule I/O requests arriving
+                            for the disk. Disk scheduling is also known as I/O scheduling.</p>
+                        <a href="algo.html" class="btn btn-style border-btn mt-lg-5 mt-4">SIMULATE</a>
+                    </div>
+                    <div class="col-lg-6 left-wthree-img text-right mt-lg-0 mt-5 ">
+                        <img src="assets/images/secondsection.jpg" alt="" class="radius-image img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /homeblock2-->
+    <section class="w3l-homeblock2 py-5" id="services">
+        <div class="container py-lg-5 py-md-4">
+            <div class="grids-area-hny main-cont-wthree-fea row">
+                <div class="col-lg-2 col-sm-6 grids-feature">
+                    <div class="area-box">
+                        <span class="fa"><img src="assets/images/seek.png" height="30px" width="30px"></span>
+                        <h4>Seek Time</h4>
+                        <p>Seek time is the time taken to locate the disk arm to a specified track where the data is to
+                            be read or write.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 grids-feature mt-sm-0 mt-5">
+                    <div class="area-box">
+                        <span class="fa"><img src="assets/images/rotation.png" height="30px" width="30px"></span>
+                        <h4>Rotational Latency</h4>
+                        <p>Rotational Latency is the time taken by the desired sector of disk to rotate into a position
+                            so that it can access the read/write heads.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 grids-feature mt-lg-0 mt-5">
+                    <div class="area-box">
+                        <span class="fa"><img src="assets/images/transfer.png" height="30px" width="30px"></span>
+                        <h4>Transfer Time</h4>
+                        <p>Transfer time is the time to transfer the data. It depends on the rotating speed of the disk
+                            and number of bytes to be transferred.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 grids-feature mt-lg-0 mt-5">
+                    <div class="area-box">
+                        <span class="fa"><img src="assets/images/disk.png" height="30px" width="30px"></span>
+                        <h4>Disk Access Time</h4>
+                        <p>Disk Access Time = Seek Time + Rotational Latency + Transfer Time</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 grids-feature mt-lg-0 mt-5">
+                    <div class="area-box">
+                        <span class="fa"><img src="assets/images/floppy.png" height="30px" width="30px"></span>
+                        <h4>Disk Response Time</h4>
+                        <p>Response Time is the average of time spent by a request waiting to perform its I/O operation
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //homeblock2-->
+
+    <section class="w3l-homeblock3">
+        <div class="midd-w3 py-5">
+            <div class="container py-lg-5 py-md-3">
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <img src="assets/images/thirdsection.jpg" alt="" class="radius-image img-fluid">
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-3 about-right-faq align-self">
+                        <h3 class="title-big">First Come First Serve(FCFS)</h3>
+                        <p class="mt-3">FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the
+                            requests are addressed in the order they arrive in the disk queue.Let us understand this
+                            with the help of an example.</p>
+                        <ul class="w3l-lists mt-4">
+
+                            <h3 class="title-small"> Advantages: </h3>
+                            <li><span class="fa fa-check" aria-hidden="true"></span>Every request gets a fair chance
+                            </li>
+                            <li><span class="fa fa-check" aria-hidden="true"></span>No indefinite postponement</li>
+
+                            <h3 class="title-small"> DisAdvantages: </h3>
+                            <li><span class="fa fa-times" aria-hidden="true"></span>Does not try to optimize seek time
+                            </li>
+                            <li><span class="fa fa-times" aria-hidden="true"></span>May not provide the best possible
+                                service
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w3l-homeblock3">
+        <div class="midd-w3 py-5">
+            <div class="container py-lg-5 py-md-3">
+                <div class="row">
+                    <div class="col-lg-6 mt-lg-0 mt-3 about-right-faq align-self">
+                        <h3 class="title-big">Shortest Seek Time First(SSTF)</h3>
+                        <p class="mt-3">In SSTF, requests having shortest seek time are executed first. So, the seek
+                            time of every request is calculated in advance in the queue & then they are scheduled
+                            according to their calculated seek time. So, request near the disk
+                            arm will get executed first.
+                        </p>
+                        <ul class="w3l-lists mt-4">
+
+                            <h3 class="title-small"> Advantages: </h3>
+                            <li><span class="fa fa-check" aria-hidden="true"></span>Average Response Time Decreases and
+                                Throughput Increases</li>
+
+                            <h3 class="title-small"> DisAdvantages: </h3>
+                            <li><span class="fa fa-times" aria-hidden="true"></span>Overhead to calculate seek time in
+                                advance
+                            </li>
+                            <li><span class="fa fa-times" aria-hidden="true"></span>Can cause Starvation for a request
+                                which has higher seek time</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <img src="assets/images/fourthsection.jpg" alt="" class="radius-image img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-right: 80px;" class="w3l-homeblock2 py-5" id="services">
+        <div class="container py-lg-5 py-md-4">
+            <div class="grids-area-hny main-cont-wthree-fea row">
+                <div class="col-lg-6 col-sm-6 grids-feature">
+                    <div class="area-box">
+                        <h4><a href="algo.html" class="title-head">SCAN</a></h4>
+                        <p>In SCAN algorithm the disk arm moves into a particular direction and services the requests
+                            coming in its path and after reaching the end of disk, it reverses its direction and again
+                            services the request arriving in its path. So,
+                            this algorithm works as an elevator and hence also known as elevator algorithm. As a result,
+                            the requests at the midrange are serviced more and those arriving behind the disk arm will
+                            have to wait.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 grids-feature mt-sm-0 mt-5">
+                    <div class="area-box">
+                        <!-- <h4><a href="algo.html" class="title-head">C-SCAN</a></h4>
+                        <p>In SCAN algorithm, the disk arm again scans the path that has been scanned, after reversing
+                            its direction. So, it may be possible that too many requests are waiting at the other end or
+                            there may be zero or few requests pending
+                            at the scanned area.</p>
+                        <p>These situations are avoided in CSCAN algorithm in which the disk arm instead of reversing
+                            its direction goes to the other end of the disk and starts servicing the requests from
+                            there. So, the disk arm moves in a circular fashion
+                            and this algorithm is also similar to SCAN algorithm and hence it is known as C-SCAN
+                            (Circular SCAN).</p> -->
+                        <div class="area-box"><img src="./assets/scan-1.jpg" alt=""></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-right: 80px;" class="w3l-homeblock3 py-5" id="services">
+        <div class="container py-lg-5 py-md-4">
+            <div class="grids-area-hny main-cont-wthree-fea row">
+                <div class="col-lg-6 col-sm-6 grids-feature">
+                    <div class="area-box">
+                        <h4><a href="algo.html" class="title-head">LOOK</a></h4>
+                        <p>It is similar to the SCAN disk scheduling algorithm except for the difference that the disk
+                            arm in spite of going to the end of the disk goes only to the last request to be serviced in
+                            front of the head and then reverses its direction
+                            from there only. Thus it prevents the extra delay which occurred due to unnecessary
+                            traversal to the end of the disk.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 grids-feature mt-sm-0 mt-5">
+                    <div class="area-box">
+                        <!-- <h4><a href="algo.html" class="title-head">C-LOOK</a></h4>
+                        <p>As LOOK is similar to SCAN algorithm, in similar way, CLOOK is similar to CSCAN disk
+                            scheduling algorithm. In CLOOK, the disk arm in spite of going to the end goes only to the
+                            last request to be serviced in front of the head and
+                            then from there goes to the other end’s last request. Thus, it also prevents the extra delay
+                            which occurred due to unnecessary traversal to the end of the disk.</p> -->
+                        <img src="./assets/look-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="w3l-bg-image">
+        <div class="bg-mask py-5">
+            <div class="container py-lg-5 py-4">
+                <div class="text-align text-center py-lg-4 py-md-3">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4 col-md-6">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oRgX6ixIipU"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="a1" class="footer-copyright text-center py-3">© 2022 Copyright:
+                    <a id="a1" href="index.html"> DiskAlgo.com</a>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266">
+                        </path>
+                    </svg>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z">
+                        </path>
+                    </svg>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+    <script src="assets/js/theme-change.js"></script>
+
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <!-- script for banner slider-->
+    <script>
+        $(document).ready(function () {
+            $('.owl-one').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: false,
+                responsiveClass: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    480: {
+                        items: 1,
+                        nav: false
+                    },
+                    667: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!--//MENU-JS-->
+
+</body>
+
+</html>
